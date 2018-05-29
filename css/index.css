@@ -1,0 +1,397 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	text-align: center;
+	height: 125px;	
+}
+.logo img{
+	margin-top: 30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+	font-family: "微软雅黑";
+	font-size:14px;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding:0 30px;
+	line-height: 45px;
+	background:url(../image/19.png) no-repeat right center;
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+	color: #1e50ae;
+}
+.nav li:last-child{
+	background: none;
+}
+.banner{
+	width: 100%;
+	height:405px;
+	background:url(../image/06.png)no-repeat center center;
+}
+.serve{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+	background-color: white;
+}
+.serve-title-chinese{
+	font-size: 34px;
+	text-align:center;
+	padding-top: 60px;
+}
+.serve-title-english{
+	font-size: 31px;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:55px;  
+}
+.block-up{
+	width: 300px;
+	height: 370px;	
+	float: left;
+}
+.block-down{
+	width: 300px;
+	height: 243px;
+	float: left;
+	text-align-last: center;
+}
+.block-up-b{
+	margin-top: 0px;
+	margin-bottom: 17px;
+	margin-left: 75px;
+}
+.block-up-a{
+	margin-top: 0px;
+	margin-bottom: 17px;
+	margin-left: 0px;
+}
+.word{
+	font-size: 16px;
+	text-align:center;
+	margin-bottom:15px; 
+}
+.list{
+	height: 165px;
+	width: 150px;
+	margin-left: 70px;
+}
+.list-ul{
+	margin-left: 60px;
+}
+.list-li{
+	list-style: disc;
+	margin-bottom: 12px;
+	font-size: 14px;
+	color: #c8c8c8;
+}
+.solution-backround{
+	width: 100%;
+	height:712px;
+	background:url(../image/07.png)no-repeat center center;
+}
+.solution-title-chinese{
+	font-size: 34px;
+	text-align:center;
+	padding-top: 60px;
+	color: white;
+}
+.solution-title-english{
+	font-size: 31px;
+	text-align:center;
+	margin-top:15px;
+	color: white;  
+	margin-bottom: 78px;
+}
+.frame{
+	width: 1200px;
+	height: 377px;
+	margin: 0 auto;
+}
+.a{
+	width: 1080px;
+	height: 377px;
+	float: left;
+}
+.b{
+	width: 60px;
+	height: 377px;
+	margin-left: 0px;
+	float: left;
+}
+.c{
+	width: 60px;
+	height: 377px;
+	margin-right: 0px;
+	float: left;
+}
+.solution-picture-a{
+	margin-top: 127px;
+	margin-right: 0px;
+}
+.solution-picture-b{
+	margin-top: 127px;
+	margin-left: 0px;
+}
+.solution-picture-c{
+	margin-right: 50px;
+	float: left;
+}
+.solution-picture-d{
+	margin-right: 0px;
+	float: left;
+}
+.know{
+	width: 238px;
+	height: 57px;
+	margin: 0 auto;
+	border-radius: 23px;
+	border: solid;
+	border-color: white;
+}
+.know-a{
+	font-family: "微软雅黑";
+	font-size:20px;
+	color: #fff;
+	text-align:center;
+	line-height: 57px;
+}
+.latest{
+	width: 100%;
+	height: 905px;
+	background-color: white;
+}
+.up-left{
+	width: 600px;
+	height: 355px;
+	float: left;
+	margin-left: 325px;
+}
+.up-right{
+	width: 600px;
+	height: 355px;
+	float: left;
+}
+.up-picture{
+	margin-left: 75px;
+}
+.down-left{
+	width: 580px;
+	height: 362px;
+	float: left;
+	margin-left: 325px;
+	padding-right: 20px;
+}
+.down-right{
+	width: 530px;
+	height: 362px;
+	padding-right: 70px;
+	float: left;
+}
+.chinese{
+	color:#333333;
+	font-size: 22px;
+	margin-left:26px; 
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.english{
+	color:#494949;
+	font-size: 18px;
+	margin-left:26px; 
+	margin-bottom: 35px;
+}
+.chinese-word{
+	color:#c4c4c4;
+	font-size: 14px;
+	margin-left:26px; 
+	margin-bottom: 20px;
+}
+.chinese-left {
+	margin-bottom: 15px;
+	color:#797979;
+	font-size: 14px;
+	padding-bottom: 15px;
+	margin-left:75px;
+}
+.chinese-left li{
+	color: #797979;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	margin-bottom: 15px;
+	border-bottom: 2px dashed #dcdcdc;
+	padding-bottom: 15px;
+}
+.chinese-left li:last-child{
+	border:none;
+}
+.chinese-right{
+	margin-bottom: 15px;
+	color:#797979;
+	font-size: 14px;
+	padding-bottom: 15px;
+	margin-left: 26px;
+}
+.chinese-right li{
+	color: #797979;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	margin-bottom: 15px;
+	border-bottom: 2px dashed #dcdcdc;
+	padding-bottom: 15px;
+}
+.chinese-right li:last-child{
+	border:none;
+}
+.four{
+	width: 100%;
+	height: 105px;
+	background-color:#f5f5f5;
+}
+.four-in{
+	width: 1200px;
+	height: 105px;
+	margin: 0 auto;
+}
+.first{
+	width: 299px;
+	height: 70px;
+	float: left;
+	margin-top: 8px;
+	border-right: 1px solid #e0e0e0
+}
+.first-picture{
+	margin:0 auto;
+	margin-left: 47px;
+	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
+}
+.first-word1{
+	font-size: 19px;
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.first-word2{
+	font-size: 13px;
+	color: #333333;
+}
+.black{
+	width: 100%;
+	height: 387px;
+	background-color: #323232;
+}
+.black-a{
+	width: 100%;
+	height: 262px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.black-in{
+	width: 1200px;
+	height: 217px;
+	margin: 0 auto;
+}
+.black-first{
+	width: 180px;
+	height: 137px;
+	float: left;
+	margin-top: 78px;
+}
+.black-word1{
+	font-size: 18px;
+	color: #bfbfbf;
+	margin-bottom: 10px;
+}
+.black-word2{
+	font-size: 14px;
+	color: #bfbfbf;
+	margin-top: 20px;
+}
+.black-second{
+	width: 236px;
+	height: 146px;
+	float: left;
+	margin-top: 72px;
+	border-right: 1px solid #9c9c9c
+}
+.black-p{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+.black-third{
+	width: 196px;
+	height: 148px;
+	float: left;
+	margin-top: 70px;
+	margin-left: 42px;
+}
+.third-word{
+	width: 196px;
+	height: 28px;
+	float: left;
+	margin-top: 20px;
+}
+.word1{
+	font-size: 17px;
+	color: #bfbfbf;
+	margin-top: 4px;
+}
+.word2{
+	font-size: 16px;
+	color: #bfbfbf;
+	float: left;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.word3{
+	font-size: 16px;
+	color: #bfbfbf;
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.one{
+	width: 1200px;
+	height: 102px;
+	margin: 0 auto;
+}
+.one-word{
+	font-size: 14px;
+	color: #bfbfbf;
+	padding-top: 80px;
+	text-align: center;
+}
+.two{
+	width: 1200px;
+	height: 68px;
+	margin: 0 auto;
+}
+.two-word{
+	font-size: 14px;
+	color: #bfbfbf;
+	padding-top: 20px;
+	text-align: center;
+}
